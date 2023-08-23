@@ -1,0 +1,287 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+ /* header start*/
+  .menu ul li a{
+    margin-bottom: 10px;
+    padding: 0 15px;
+  }
+
+  
+  /*banner start*/
+.b_text {
+  text-align: center;
+}
+.b_h1{
+  padding: 0;
+}
+.b_p1 {
+  padding: 0;
+}
+.btn_link {
+  margin: 15px auto 0;
+}
+.b_img {
+  margin-bottom: 30px;
+  padding: 0 ;
+}
+/*feature start*/
+
+.c_padd{
+  margin-bottom: 30px;
+}
+.s_feature {
+    margin-top: 24px;
+   }
+
+.s_img{
+  width: 60px;
+  height: 70px;
+}
+/*course start*/
+.c_h1{
+  font-size: 20px;
+}
+.c_item{
+    margin: 15px 0 0;
+    padding: 10px 10px 15px;
+  
+}
+.cli:not(:last-child) {
+  margin-right: 0px;
+}
+.c_left ul li img,.c_right ul li img {
+  width:15px !important ;
+}
+.c_left ul li span, .c_right ul li span {
+font-weight: 400px;
+}
+/*testimony start*/
+.testimony {
+  padding-bottom: 35px;
+}
+.t_item{
+  margin-top: 30px;
+}
+.t_img{
+padding: 0 90px 15px;
+}
+.t_text{
+  text-align: center;
+}
+ /*footer top*/
+ .footer_top {
+  text-align: center;
+  padding: 55px 0 20px;
+}
+ .ft_dt {
+  margin-bottom: 35px;
+  padding-right: 0;
+}
+.ft_link {
+margin-bottom: 35px;
+}
+footer {
+  padding: 0 0 30px;
+}
+}
+
+
+   
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  /*header start*/
+  .menu ul li a{
+    margin-bottom: 10px;
+    padding: 0 15px;
+  }
+  /*banner start*/
+  .b_text {
+      text-align: center;
+  }
+  .btn_link {
+    margin: 15px auto 0;
+  }
+  .b_img {
+    margin-bottom: 30px;
+    padding: 0 ;
+}
+/*feature start*/
+.c_padd{
+  margin-bottom: 40px;
+}
+.s_feature {
+  margin-top: 24px;
+
+ }
+ /*course start*/
+ .c_h1 {
+  font-size: 30px;
+}
+.c_item {
+  margin: 30px 60px 0;
+  padding: 15px 10px 25px;
+}
+/*testimony start*/
+.testimony {
+  padding-bottom: 40px;
+}
+.t_item{
+  margin-top: 40px;
+}
+.t_img{
+  padding: 0 120px 20px;
+  }
+  .t_text{
+    text-align: center;
+  }
+  /*footer top start*/
+  .footer_top {
+  padding: 55px 0 25px;
+  text-align: center;
+  }
+  .ft_dt {
+    margin-bottom: 30px;
+    padding: 0 70px 0;
+  }
+  /*footer start*/
+  footer{
+  padding: 10px 0 30px;
+ 
+}
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*header start*/
+    .menu ul li a{
+        margin-bottom: 10px;
+        padding: 0 15px;
+    }
+    /*banner start*/
+   .b_text{
+      text-align: center;
+    }
+    .b_h1{
+      padding: 0 95px 0;
+    }
+    .b_p1{
+      padding: 0 70px 0
+    }
+    .btn_link{
+      margin: 15px auto 0;
+    }
+    .b_img {
+      margin-bottom: 40px;
+      padding: 0 110px;
+    }
+    /*feature start*/
+    .c_padd{
+      margin-bottom: 80px;
+    }
+    .s_feature {
+      margin-top: 24px;
+  }
+  /*course start*/
+  .c_item{
+    margin: 40px 100px 0;
+  
+}
+/*footer top start*/
+.footer_top {
+   text-align: center;
+    padding: 55px 0 30px;
+}
+.ft_dt {
+  margin-bottom: 35px;
+  padding: 0 80px 0;
+}
+/*footer start*/
+footer {
+  padding: 10px 0 30px;
+}
+    
+  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  /*banner start*/
+  .b_h1 {
+    padding: 0 25px 0;
+  }
+  .b_p {
+    margin-right: 150px;
+}
+  .b_p1 {
+    padding: 0 35px 0;
+}
+ /*feature start*/
+ .c_padd{
+  margin-bottom: 70px;
+}
+/*course start*/
+.c_item {
+  margin-top: 60px;
+  padding: 24px 12px 30px;
+}
+.cli:not(:last-child) {
+  margin-right: 0px;
+}
+.c_left ul li img,.c_right ul li img {
+  width:15px !important ;
+}
+.c_left ul li span, .c_right ul li span {
+font-weight: 400px;
+}
+/*testimony start*/
+.t_item{
+  margin-top: 40px;
+}
+/*footer top*/
+.footer_top {
+  padding: 55px 0 35px;
+}
+.ft_dt {
+  padding-right: 70px;
+}
+
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   /*banner start*/
+   .b_h1{
+    padding:0;
+   }
+   
+   .b_p1{
+    padding: 0;
+   }
+   /*footer top start*/
+   .footer_top {
+    padding: 55px 0 4opx;
+}
+ }
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+  /*banner start*/
+  .b_h1{
+    padding-right:0;
+  }
+  .b_p1{
+    padding-right: 0;
+  }
+  /*footer top start*/
+  .footer_top {
+    padding: 55px 0 55px;
+}
+  .ft_dt {
+    padding-right: 130px;
+  }
+
+}
+  
+  
+ 
+
